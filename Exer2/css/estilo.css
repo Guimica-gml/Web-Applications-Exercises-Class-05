@@ -5,8 +5,8 @@ body {
 figure {
     box-shadow: 5px 5px 10px black;
     border-radius: 20px;
-    width: fit-content;
-    height: fit-content;
+    width: 300px;
+    height: 500px;
     padding-bottom: 10px;
     margin: auto;
 
@@ -22,7 +22,7 @@ figcaption {
 }
 
 .estrelas > img {
-    height: 22px;
+    height: 15px;
 }
 
 figure > img {
@@ -37,7 +37,7 @@ h1 {
 .dist {
     display: inline;
     position: relative;
-    left: 50%;
+    left: 30%;
 }
 
 .dist > img {
@@ -54,27 +54,31 @@ h1 {
 .horario > div {
     position: relative;
     display: inline;
-    font-size: 20px;
-    bottom: 8px;
+    font-size: 10px;
+    bottom: 12px;
+}
+
+#title {
+    font-size: 24px;
 }
 
 .reserva {
     color: #9499b8;
-    font-size: 34px;
+    font-size: 17px;
     position: relative;
     top: 10px;
     text-align: center;
 }
 
 .dias {
-    font-size: 26px;
+    font-size: 13px;
     text-align: center;
 }
 
 p {
-    font-size: 27px;
+    font-size: 15px;
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 15px;
 }
