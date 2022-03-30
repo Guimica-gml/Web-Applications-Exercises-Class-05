@@ -1,0 +1,81 @@
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+figure {
+    width: 300px;
+    height: min-content;
+    margin: auto;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 15px 15px 15px 15px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+figure > img {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+figcaption {
+    padding: 10px;
+}
+
+figcaption > p {
+    font-size: 12pt;
+}
+
+figcaption > h1 {
+    font-size: 20pt;
+    margin: 0px;
+}
+
+figcaption > h1, .dist {
+    width: 49%;
+    display: inline-block;
+}
+
+.dist {
+    text-align: right;
+}
+
+.dist > img {
+    vertical-align: middle;
+}
+
+.estrelas img {
+    width: 100px;
+}
+
+.horario {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.horario div {
+    display: inline-block;
+    width: 65px;
+    line-height: 30px;
+}
+
+.clock {
+    display: inline-block;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.reserva {
+    font-size: 20pt;
+    color: lightslategray;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.dias {
+    text-align: center;
+}
